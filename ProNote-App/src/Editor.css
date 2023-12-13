@@ -1,0 +1,32 @@
+.container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.text{
+    padding: 20px;
+    width: 40vw;
+    height: 75vh;
+    border-radius: 5px;
+    background-color: #2C2C2C;
+}
+.output-text{
+    border-radius: 15px;
+    text-align: left;
+    color: #00FF89;
+    font-size: 20px;
+    letter-spacing:1.2px;
+    box-shadow: #00FF89 1px 1px 15px 3px;
+    word-wrap: break-word;
+}
+.input-text{
+    border: 1px solid #00FF89;
+    outline: #00FF89;
+    font-size: 16px;
+}
+.input-text:active{
+    outline: #00FF89;
+}
